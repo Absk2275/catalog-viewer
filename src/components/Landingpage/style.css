@@ -1,0 +1,159 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  *{
+    margin:0px;
+    padding:0px;
+  }
+  
+ 
+  
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 50px;
+}
+.image-container {
+  margin-left: 0px;
+}
+
+.image-text {
+  position: absolute;
+  height:50%;
+  
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+  left:750px;
+
+  width:35%;
+ top: -430px;
+
+ font-size: 20px;
+ color:#707070;
+ margin-bottom: 0px;
+}
+.image-description-left{
+    position: relative;
+    right:600px;
+}
+.previewimg{
+    position: relative;
+    
+    width:100px;
+    height: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.Image{
+    width: 50%;
+    height:40%;
+    margin-left: 0px;
+    position: relative;
+    left: 20px;
+    top:40px;
+    border-radius: 20px;
+    
+}
+.btn {
+    border-radius: 25px;
+    border:none;
+    background-color: #25BEDA;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    width:50px;
+    padding: 10px;
+    padding-left: 10px;
+    position: relative;
+    left:1000px;
+    top:-400px;
+}
+.image-container{
+    height:50%;
+    margin-bottom: 0px;;
+}
+
+.preview {
+    position: relative;
+    top:-450px;
+    left:20px;
+}
+.left-arrow{
+    position: relative;
+    top:55px;
+    
+    right:10px;
+}
+.right-arrow{
+    position: relative;
+    left: 545px;
+    top:-50px;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* Mobile View */
+
+@media screen and (max-width: 480px) {
+    .carousel {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .Image{
+        width:100%;
+        
+    }
+    .preview {
+        position: relative;
+        top:-1450px;
+        left:20px;
+    }
+    .previewimg{
+        position: relative;
+        width:60px;
+        height: 50px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .image-text {
+      
+      
+        position: relative;
+        left:140px;
+        padding: 10px;
+        font-size: 16px;
+        position: relative;
+        font-size: 20px;
+        top: 100px;;
+       
+      }
+      h1{
+        text-align: center;
+      }
+      .left-arrow{
+        position: relative;
+        top:40px;
+    }
+    .right-arrow{
+        position: relative;
+        left: 350px;
+        top:-40px;
+    }
+    .btn {
+       position: relative;
+       top:-1300px;
+       left:150px
+    }
+
+
+}
